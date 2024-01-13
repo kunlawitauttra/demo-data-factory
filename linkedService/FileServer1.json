@@ -1,0 +1,17 @@
+{
+	"name": "FileServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "\\\\hk-vm\\test-share",
+			"userId": "kunlawit",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI0ODk0NzhiYi01MGNhLTQ4Y2ItOWFjMy05YzI4MDg0YTYyZTAiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "azure-vm-sg",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"name": "SourceDataset_rm2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureFileStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureFileStorageLocation",
+				"folderPath": "test001"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
