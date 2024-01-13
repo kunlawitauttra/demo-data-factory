@@ -1,0 +1,6 @@
+{
+	"name": "azure-vm-sg",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
